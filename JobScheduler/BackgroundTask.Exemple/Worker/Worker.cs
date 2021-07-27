@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace BackgroundTask.Exemple.Worker
 {
-    public class WorkerFirst : IWorkerFirst
+    public class Worker : IWorker
     {
-        private readonly ILogger<WorkerFirst> _logger;
+        private readonly ILogger<Worker> _logger;
         private int number = 0;
 
-        public WorkerFirst(ILogger<WorkerFirst> logger)
+        public Worker(ILogger<Worker> logger)
         {
             _logger = logger;
         }

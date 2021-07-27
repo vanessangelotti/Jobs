@@ -28,7 +28,7 @@ namespace BackgroundTask.Exemple
         {
             services.AddControllers();
             services.AddHostedService<DerivedBackgroundPrinter>();
-            services.AddSingleton<IWorkerFirst, WorkerFirst>();
+            services.AddSingleton<IWorker, Worker>();
 
         }
 

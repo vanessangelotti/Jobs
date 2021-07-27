@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreQuartzExemple", "CoreQuartzExemple\CoreQuartzExemple.csproj", "{9C1E97B2-5BAA-4445-9706-56FA2EB81678}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundTask.Exemple", "BackgroundTask.Exemple\BackgroundTask.Exemple.csproj", "{1848BBCB-EDFE-4E7B-BCAB-50B59875DA97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackgroundTask.Exemple", "BackgroundTask.Exemple\BackgroundTask.Exemple.csproj", "{1848BBCB-EDFE-4E7B-BCAB-50B59875DA97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerService", "WorkerService\WorkerService.csproj", "{70FBF811-3FFB-4AB1-9A4B-1EA1218D3F64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1848BBCB-EDFE-4E7B-BCAB-50B59875DA97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1848BBCB-EDFE-4E7B-BCAB-50B59875DA97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1848BBCB-EDFE-4E7B-BCAB-50B59875DA97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70FBF811-3FFB-4AB1-9A4B-1EA1218D3F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70FBF811-3FFB-4AB1-9A4B-1EA1218D3F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70FBF811-3FFB-4AB1-9A4B-1EA1218D3F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70FBF811-3FFB-4AB1-9A4B-1EA1218D3F64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

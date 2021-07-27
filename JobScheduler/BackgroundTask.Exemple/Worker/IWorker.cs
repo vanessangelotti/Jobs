@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 
 namespace BackgroundTask.Exemple.Worker
 {
-    public interface IWorkerFirst
+    public interface IWorker
     {
         Task DoWork(CancellationToken cancelationToken);
     }

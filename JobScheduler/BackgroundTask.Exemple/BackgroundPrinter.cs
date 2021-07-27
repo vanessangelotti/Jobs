@@ -9,13 +9,13 @@ using System.Threading.Tasks;
 
 namespace BackgroundTask.Exemple
 {
-    //Responsável por imprimir e incrementar numeros
     public class BackgroundPrinter: IHostedService
     {
+        //Gerenciamento do Job, onde será executado pelos métodos Start and StopAsync
         private ILogger<BackgroundPrinter> _logger;
-        private readonly IWorkerFirst _workerFist;
+        private readonly IWorker _workerFist;
 
-        public BackgroundPrinter(ILogger<BackgroundPrinter> logger, IWorkerFirst workerFist)
+        public BackgroundPrinter(ILogger<BackgroundPrinter> logger, IWorker workerFist)
         {
             this._logger = logger;
             _workerFist = workerFist;

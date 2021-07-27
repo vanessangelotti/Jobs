@@ -10,9 +10,10 @@ namespace BackgroundTask.Exemple
 {
     public class DerivedBackgroundPrinter : BackgroundService
     {
-        private readonly IWorkerFirst _workerFirst;
+        //Gerenciamento do Job através do BackgroundService, onde será executado pelo método ExecuteAsync
+        private readonly IWorker _workerFirst;
 
-        public DerivedBackgroundPrinter(IWorkerFirst workerFirst)
+        public DerivedBackgroundPrinter(IWorker workerFirst)
         {
             _workerFirst = workerFirst;
         }
